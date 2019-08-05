@@ -1,0 +1,148 @@
+
+/* making the whole body a single column */
+/* .container{
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+
+body{
+    margin: 0;
+    background-image: url("images/bg.png");
+    font-family: Helvetica;
+}
+
+.row-top{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #4267b2;
+    height: 80px;
+}
+
+/* styling the h3 facebook brand */
+h3{
+    position: relative;
+    left: 150px;
+    color: white;
+    font-size: 35px;
+}
+
+/* styling the top fields */
+.col-top.top-fields{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    color: white;
+    grid-column-gap: 10px;
+}
+
+/* styling labels on the login sections */
+.col-top.top-fields label{
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+/* styling the anchor tag of Forgotten account */
+.col-top.top-fields a{
+    font-size: 12px;
+    color: rgba(230,230,250,0.6);
+}
+
+.col-top.top-fields input[type="text"], .col-top.top-fields input[type="password"] {
+    height: 23px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* styling the log in button */
+.col-top.top-fields input[type="submit"] {
+    color: white;
+    /* background-image: url("images/log_in_btn_bg.png"); */
+    margin-top: 15px;
+    height: 23px;
+    width: 50px;
+    font-weight: bold;
+    border: 1px solid rgba(230,230,250,0.4);
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+/* styling the left side of the main body */
+.left{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+/* removing the underline from all the anchor tags */
+a{
+    text-decoration: none;
+}
+
+/* giving all the inputs heights and widths */
+.names input[type="text"], .names input[type="password"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.mobile-number-or-email-address input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 387px;
+    border: 1px solid;
+}
+
+.new-password input[type="password"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 387px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.main-form div{
+    padding: 5px;
+}
+
+/* h2 */
+h2{
+    color: darkblue;
+}
+
+/* styling the first question-mark */
+.question-mark-one{
+  position: relative;
+  bottom: -8px;
+}
+
+
+.the-radios{
+    display: grid;
+    grid-template-columns: 20% 20% 18% 15%;
+}
+
+.question-mark-two{
+    position: relative;
+    bottom: -14px;
+}
+
+small{
+    font-size: 11px;
+}
+
+/* styling the sign up button */
+.sign-up input[type="submit"] {
+    color: whitesmoke;
+    padding: 10px 70px;
+    font-size: 16px;
+    background-color: #6BA656;
+    border-radius: 5px;
+}
