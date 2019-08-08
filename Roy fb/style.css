@@ -1,0 +1,109 @@
+#upper{
+    width: 100%;
+    height: 75px;
+    background:#3D5A99;
+    
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background:rgb(213, 213, 216);
+}
+#middleDiv{
+    height: 75px;
+    width: 100%;
+
+}
+#lowerDiv{
+    height: 75px;
+    width: 100%;
+
+}
+h1{
+    color: #ffffff;
+}
+.less1{
+    color: #ffffff;
+    font-size: 12px;
+    
+}
+table{
+    border-spacing:4px;
+
+}
+.love{
+    color: #ffffff;
+    font-size: 12px;
+}
+#button{
+    height: 20px;
+    width: 50px;
+    background-color:#3b72a9;
+    color: #ffffff;
+    border: 
+
+}
+.loan1{
+    float: left;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.loan2{
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-align: right;
+}
+.baby{
+    background: linear-gradient(#67ae55,#578843);
+    background-color: #69a74e;
+    box-shadow: insert 0 1px 1px #a4e388;
+    border-color: #3b6e22,#3b6e22,#2c5115;
+   
+    font-size: 30px;
+    width: 200px;
+}
+.gender{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+
+
+}
+Gender{
+    margin-top: 30px;
+    color: black;
+}
+#footer{
+width: 100%;
+float: left;
+float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
