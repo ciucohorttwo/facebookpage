@@ -1,0 +1,209 @@
+<!-- @author ==> Samson Kibrom  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700&display=swap" rel="stylesheet"> 
+
+        <link rel = "stylesheet" href="fbpage_samson.css">
+</head>
+
+<body style="margin: 0; background: #eaebef">
+    <div style="width:100%;">
+        <div id="navb" style="background: #3b5998; width:100%;">
+            <!-- <div class="topleft"> --><!-- </div> -->
+            <div class="topleft">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span id="fblogo">facebook</span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <form id="login_form">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                        <!-- <td rowspan=""><a href=""><span id="fblogo">facebook</span></a></td> -->
+                                            <td class=""><label class="txtboxtitle1" for="">Email or Phone</label></td>
+                                            <td><label class="txtboxtitle1" for="">Password</label></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input id="text" class="input-class" type="text"></td>    
+                                            <td><input class="input-class" type="password"></td>
+                                            <td><button type="submit" id="btnlogin">Log In</button></td>
+                                        </tr>                
+                                        <tr>              
+                                            <td></td>
+                                            <td><label ><a href="#" style="font-size: 13px; color: #9cb4d8; font-weight: normal;">Forgot account?</a></label></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="middlediv" style="width:100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h2 id="connectwith">Connect with friends and the world around you on Facebook.<h2>
+                    </div>
+                     <div class="icons-left">
+                        <img src="newsfeed.png" alt="newsfeed">
+                        <strong>See photos and updates</strong><span> from friends in News Feed.</span>
+                    </div>
+
+                    <div class="icons-left">
+                        <img src="star.png" alt="star">
+                        <strong>Share what's new</strong><span> in your life on your Timeline.</span>
+                    </div>
+                    <div class="icons-left">
+                        <img src="tricircle.png" alt="circles">
+                        <strong>Find more</strong><span> of what you're looking for with Facebook Search.</span>
+                    </div>
+                </div>
+                    
+                <div class="col-md-6">
+                    <div class="middleright">
+                        <h2 id="freesignuph2">Sign Up</h2>
+                        <h4>It's free and always will be.</h4>
+                        <input class="form-signup" type="text" placeholder="First name">
+                        <input class="form-signup" type="text" placeholder="Last name">
+                        <input id="signupemail" class="form-signup" type="email" placeholder="Mobile number or email">
+                        <input id="signuppwd" class="form-signup" type="password" placeholder="New password">
+
+                        <div>
+                            <div id="birthday" class="birthgen">Birthday</div>
+                                <div class = "dob">
+                                    <select id="month">
+                                        <option>Month</option>
+                                        <option>Jan</option><option>Feb</option><option>Mar</option>
+                                        <option>Apr</option><option>May</option><option>Jun</option>
+                                        <option>Jul</option><option>Aug</option><option>Sep</option>
+                                        <option>Oct</option><option>Nov</option><option>Dec</option>
+                                    </select>
+
+                                    <select id="day">
+                                        <option>Day</option>
+                                        <option>1</option><option>2</option><option>3</option><option>4</option>
+                                        <option>5</option><option>6</option><option>7</option><option>8</option>
+                                        <option>9</option><option>10</option><option>11</option> <option>12</option>
+                                        <option>13</option><option>14</option><option>15</option><option>16</option>
+                                        <option>17</option><option>18</option><option>19</option><option>20</option>    
+                                        <option>21</option><option>22</option><option>23</option> <option>24</option>
+                                        <option>25</option><option>26</option><option>27</option><option>28</option>
+                                        <option>29</option><option>30</option><option>31</option>                 
+                                    </select>
+
+                                    <select id="year">
+                                            <option>Year</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option>
+                                            <option>2015</option><option>2014</option><option>2013</option><option>2012</option>
+                                            <option>2011</option><option>2010</option><option>2009</option><option>2008</option>
+                                            <option>2007</option><option>2006</option><option>2005</option><option>2004</option>
+                                     </select>
+                                     <span class="dot"><span class="badge">?</span></span>
+                                     
+                                </div>
+                                        <!-- <span class="glyphicon glyphicon-question-sign"> <a id="birthday-help" href="#" title="Click for more information" ><i class=""></i></a></span> -->
+                                        
+                        </div>
+
+                            <div>
+                                <div class="birthgen">Gender</div>
+                                    <span class = "gender">
+                                        <span><input type="radio" name="gender"><label for="">Female</label></span>
+                                        <span><input type="radio" name="gender"><label for="">Male</label></span>
+                                        <span><input type="radio" name="gender"><label for="">Custom</label></span>
+                                    </span>
+                                    <span class="dot"><span class="badge">?</span></span>
+                            </div>
+
+                            <p style="color:#777; width: 350px; line-height:1.1; font-family: Helvetica, Arial, sans-serif; font-size: 14.31px;">
+                                <small>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>.
+                                    You may receive SMS Notifications from us and can opt out any time. </small></p>
+
+                            <button id="btnsignup" type="submit" class="btn btn-success" width="30%" >Sign Up</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div id="lowerdiv">
+        <footer>
+        <div class="last">
+            <ul>
+             <li class="languages">English (US)</li>
+             <li class="languages"><a href = "#">Français (France)</a></li>
+             <li class="languages"><a href = "#">العربية</a></li>
+             <li class="languages"><a href = "#">Português (Brasil)</a></li>
+             <li class="languages"><a href = "#">Español</a></li>
+             <li class="languages"><a href = "#">Türkçe</a></li>
+             <li class="languages"><a href = "#">Kiswahili</a></li>
+             <li class="languages"><a href = "#">Deutsch</a></li>
+             <li class="languages"><a href = "#">中文(简体</a></li>
+             <li class="languages"><a href = "#">Italiano</a></li>
+             <li class="languages"><a href = "#">हिन्दी</a></li> 
+             <li class="languages"><button style="cursor: pointer;">+</button></li>
+            </ul>
+        </div>
+            <hr width="79%"/>
+        <div class="last">
+            <ul>
+                <li class="accessories"><a href="#">Sign Up </a></li>
+                <li class="accessories"><a href="#">Log In </a></li>
+                <li class="accessories"><a href="#">Messenger </a></li>
+                <li class="accessories"><a href="#">Facebook Lite</a></li>  
+                <li class="accessories"><a href="#">Watch</a></li>  
+                <li class="accessories"><a href="#">Profiles</a></li>  
+                <li class="accessories"><a href="#">Pages</a></li>  
+                <li class="accessories"><a href="#">Page Categories</a></li>  
+                <li class="accessories"><a href="#">Places</a></li>  
+                <li class="accessories"><a href="#">Games</a></li>  
+                <li class="accessories"><a href="#">Locations</a></li>  
+                <li class="accessories"><a href="#">Marketplace</a></li>  
+                <li class="accessories"><a href="#">Groups</a></li>  
+                <li class="accessories"><a href="#">Instagram</a></li>  
+                <li class="accessories"><a href="#">Local Fundraisers</a></li>  
+                <li class="accessories"><a href="#">Services</a></li>  
+                <li class="accessories"><a href="#">About</a></li>  
+                <li class="accessories"><a href="#">Create Ad</a></li>  
+                <li class="accessories"><a href="#">Create Page</a></li>  
+                <li class="accessories"><a href="#">Developers</a></li>  
+                <li class="accessories"><a href="#">Careers</a></li>  
+                <li class="accessories"><a href="#">Privacy</a></li> 
+                <li class="accessories"><a href="#">Cookies</a></li> 
+                <li class="accessories"><a href="#">Ad Choices</a></li> 
+                <li class="accessories"><a href="#">Terms</a></li> 
+                <li class="accessories"><a href="#">Account Security</a></li> 
+                <li class="accessories"><a href="#">Login Help</a></li> 
+                <li class="accessories"><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <span id="fb_copyright">Facebook &copy 2019</span> 
+    </footer>
+</div>
+   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+</html>
