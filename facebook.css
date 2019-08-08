@@ -8,13 +8,13 @@
 
 body{
     margin: 0;
-    background-image: url("images/bg.png");
+    /* background-image: url("images/bg.png"); */
     font-family: Helvetica;
 }
 
 .row-top{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 62% 39%;
     background-color: #4267b2;
     height: 80px;
 }
@@ -57,17 +57,18 @@ h3{
 /* styling the log in button */
 .col-top.top-fields input[type="submit"] {
     color: white;
-    /* background-image: url("images/log_in_btn_bg.png"); */
-    margin-top: 15px;
+    background-color: #003bb1;
+    margin-top: 14px;
     height: 23px;
     width: 50px;
     font-weight: bold;
-    border: 1px solid rgba(230,230,250,0.4);
+    border: 1px solid rgba(2, 2, 63, 0.4);
 }
 
 .main-body{
     display: grid;
     grid-template-columns: 60% 40%;
+    background-image: url("images/bg.png");
 }
 
 /* styling the left side of the main body */
@@ -76,30 +77,39 @@ h3{
     margin-right: 10%;
 }
 
+
 /* removing the underline from all the anchor tags */
 a{
     text-decoration: none;
+}
+
+.left h2{
+    color: rgb(2, 61, 110);
 }
 
 /* giving all the inputs heights and widths */
 .names input[type="text"], .names input[type="password"]{
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid rgba(211, 212, 212, 0.945);
+    font-size: 16px;
+    width: 215px;
 }
 
 .mobile-number-or-email-address input[type="text"]{
     padding: 10px;
     border-radius: 5px;
-    width: 387px;
-    border: 1px solid;
+    width: 432px;
+    border: 1px solid rgba(211, 212, 212, 0.945);
+    font-size: 16px;
 }
 
 .new-password input[type="password"]{
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid;
-    width: 387px;
+    border: 1px solid rgba(211, 212, 212, 0.945);
+    width: 432px;
+    font-size: 16px;
 }
 
 select{
@@ -113,8 +123,9 @@ select{
 }
 
 /* h2 */
-h2{
-    color: darkblue;
+.create-account h2 {
+    color: rgb(31, 30, 30);
+    font-size: 35px;
 }
 
 /* styling the first question-mark */
@@ -136,6 +147,7 @@ h2{
 
 small{
     font-size: 11px;
+    color: gray;
 }
 
 /* styling the sign up button */
@@ -145,4 +157,37 @@ small{
     font-size: 16px;
     background-color: #6BA656;
     border-radius: 5px;
+}
+
+.create-a-page {
+    color: rgb(71, 70, 70);
+    font-size: 13px;
+    font-weight: bolder;
+    /* margin-bottom: 1px; */
+}
+
+footer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.entire-footer {
+    margin-top: 40px;
+    background-color: white;
+}
+
+.entire-footer a {
+    color: #4267b2;
+    padding: 3px;
+}
+
+.entire-footer p {
+    color: gray;
+    font-size: 12px;
+}
+
+.copy-right {
+    color: gray;
+    font-size: 11px !important;
 }
