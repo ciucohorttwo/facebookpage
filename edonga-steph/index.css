@@ -1,0 +1,111 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#eaebea;
+}
+#banner{
+    width:100%;
+    height:77px;
+    background-color: rgb(59,89,152);
+    float:left;
+   
+}
+
+
+.col-md-6{
+    padding: 3px;
+ /* text-align: center; */
+} 
+#phone{
+    width:90%;
+    height: 23px;
+}
+#pass{
+    width:150px;
+    height: 23px;
+}
+#pad{
+   margin-top: 30px;
+   color:#fff;
+   border: 1px solid rgb(16, 89, 173);
+   background-color: rgba(8, 84, 155, 0.829);
+}
+.up{
+    padding-left:70px;
+}
+#face{
+    margin-top:30px;
+    color:#fff;
+}
+#content{
+    width:100%;
+    float:left;
+}
+#last{
+    width:100%;
+    height:120px;
+    padding-left: 20px;
+    background-color:#fff;
+    float:left;
+    color:blue;
+}
+.face{
+    padding-top:25px;
+    text-align:left;
+}
+.photo{
+    padding:25px;
+    text-align:left;
+}
+
+.ls{
+    padding-right:25px;
+}
+.ld{
+    padding-left:55px;   
+}
+#longa{
+    width:446px;
+}
+#long{
+    width:448px;
+}
+#lon{
+    width:100%;
+    align-content: left;
+    margin-left:0px;
+}
+#green{
+    width:250px;
+    height:45px;
+    padding-left:20px;
+    border-radius:7px;
+    color:#fff;
+    background-color:rgba(93,149,73);
+}
+.para{
+    text-align:left;
+    padding-left:20px;
+    
+}
+.band{
+    padding:10px;
+}
+/* styling horizontal rule */
+hr{
+    padding-left:80px;
+    padding-right:80px;
+}
+#plas{
+     margin-top:10px;
+}
+#opt{
+    margin-left:0px;
+}
+#qstn{
+    width:15px;
+    height:25px;
+    border-radius:50%;
+    border-color:eaebea;
+}
