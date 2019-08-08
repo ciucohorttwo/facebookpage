@@ -1,0 +1,207 @@
+/* 
+ styles for the navigation bar with all its other fields
+ like the facebook logo and the login section
+ */
+#navb{
+    background-color:#3b5998;
+    height:80px;
+    width:100%;
+}
+
+.fb-word{
+    float: left;
+    color:white; 
+    font-weight:bold; 
+    margin-left:12%; 
+    font-size:40px; 
+    font-family: Arial;
+}
+
+label[for="email"],[for=password], #forgot{
+    color: white;
+}
+
+label{
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#forgot{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+#forgot a{
+    color: #9cb4d8;
+}
+
+#mail, #passw{
+    height: 22px;
+    font-size: 10px;
+}
+
+#mail, #passw{
+    width: 150px;
+    padding-top: 15px;
+    border: 1px solid black;
+    margin-bottom: 0%;
+}
+
+#mail{
+    float: right;
+    margin-right: -10px;
+}
+
+#passw{
+    margin-left: -10px;
+}
+
+#sub{
+    font-weight: bolder;
+    font-size: 11px;
+    margin-top: 32px;
+    border: 1px solid #29487d;
+    margin-left: -25px;
+    background-color: #4267b2;
+    color: white;
+    height: 22px;
+    font-size: 11px;
+    font-weight: bolder;
+} 
+
+#sub:hover{
+    background-color: #29487d;
+}
+
+/* styles for the middle section of the page with all its contents */
+.middle-div{
+    height: 100%;
+    background-color: #edf0f5; 
+    width:100%;
+}
+
+#connect{
+    width: 80%;
+    font-weight: bold;  
+}
+ 
+#input1, #input2, #input3, #input4{
+    border: 1px solid rgb(138, 138, 145);
+    height: 36px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 4px;
+    padding-inline-start: 10px;
+}
+
+#input1, #input2{
+  width: 198px;
+  
+}
+
+#input3, #input4{
+  width: 400px;
+  
+} 
+
+label[for='birthday']{
+    font-weight: 100px;
+}
+
+input[type=radio]{
+    margin-top: 20px;
+    margin-bottom:20px;  
+}
+
+#declaration{
+    font-size: 10px;
+    line-height: 1px;
+}
+
+p a{
+    text-decoration: none;
+    color: #385898;
+} 
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#badge{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(100, 98, 98); 
+}
+
+#badg{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#signup-btn{
+    border: 1px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    width: 198px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-family: 'Freight Sans Bold';
+    font-size: 20px;
+}
+
+#signup-btn:hover{
+    background-color: #54a820;
+}
+
+#foot{
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Styles for the footer section of the page with all its contents */
+
+.footer{
+    height: 100%;
+    background-color:#fff;
+    width:100%;
+    margin-top: 20px;
+}
+
+span a{
+    font-size: 12px;
+    color: #385898;
+    cursor: pointer;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+
+#first-span{
+    color: #444343;
+    line-height: 1.34;
+    font-size: 12px;
+}
+
+#add{
+    width:5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-left: 5px; 
+    height:2px;
+    font-weight: bold;
+}
+
+#copy{
+    margin-top: 1%;
+    font-size: 10px;
+    color:#444343;
+
+}
