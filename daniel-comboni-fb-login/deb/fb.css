@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+    width: 100%;
+    
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1.34;
+    color: #1c1e21;
+}
+h1{
+    font-size: 48px;
+    margin-left: 40%;
+}
+#emails{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+/* .radio{
+    margin-left: 0px;
+} */
+.email{
+    display: block;
+    margin-right: 20px;
+}
+#row1{
+    height: 90px;
+    margin: 0;
+    width: 100%;
+    background-color: #3b5998;
+    font-family: Verdana;
+}
+#header{
+
+    color: #fff;
+}
+.row2{
+
+    margin: 0;
+    background-color: aliceblue;
+    font-size: 16px;
+
+
+}
+
+input type="radio"{}
+
+.mobile{
+    width: 86% ;
+    height: 60px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Verdana;
+
+}
+footer{
+    width: 900px;
+    top: 15px;
+    left: 200px;
+    color: blue;
+    height: 60px;
+}
+
+.password{
+    width: 86%;
+}
+.row2 input{
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 10px;
+}
+#side2{
+  font-size: 16px;  
+}
+#rightside{
+    margin-top: 5%;
+}
+#rightside p{
+    margin-bottom: 12%;
+    font-size: 20px;
+}
+.connect{
+    font-weight: 300;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
