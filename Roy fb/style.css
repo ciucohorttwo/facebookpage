@@ -46,26 +46,45 @@ table{
 }
 .loan1{
     float: left;
-    height: 30px;
+    height: 40px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 20px;
     text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    
 }
 .loan2{
-    height: 30px;
+    height: 40px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     box-align: right;
+    width: 430px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+
 }
 .baby{
     background: linear-gradient(#67ae55,#578843);
     background-color: #69a74e;
     box-shadow: insert 0 1px 1px #a4e388;
     border-color: #3b6e22,#3b6e22,#2c5115;
-   
-    font-size: 30px;
-    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700px;
+    padding: 7px 60px;
+    font-size: 19px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+
 }
 .gender{
     margin-top: 20px;
