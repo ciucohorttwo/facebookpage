@@ -107,10 +107,13 @@ label[for='birthday']{
     font-weight: 100px;
 }
 
-input[type=radio]{
-    margin-top: 20px;
-    margin-bottom:20px;  
+.myRad{
+    margin-top: -10px;
+    margin-bottom:20px; 
 }
+ #rad2, #rad3{
+    margin-left: 20px;
+} 
 
 #declaration{
     font-size: 10px;
